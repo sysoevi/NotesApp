@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_fab">16dp</dimen>
+
+    <!-- Note item view-->
+    <dimen name="spacing_card_sides">16dp</dimen>
+    <dimen name="spacing_card_top_bottom">8dp</dimen>
+    <dimen name="spacing_item_sides">8dp</dimen>
+    <dimen name="size_note_title">16sp</dimen>
+    <dimen name="size_note_short_descr">14sp</dimen>
+    <dimen name="spacing_note_item_elements">4dp</dimen>
+</resources>

@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Toolbar appearance activity_main -->
+    <style name="ToolbarAppearance" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="ToolbarTextAppearance">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- ViewPager appearance fragment_pager -->
+    <style name="AppPagerAppearance" parent="Widget.Design.TabLayout">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Fab appearance active_notes_fragment-->
+    <style name="FabAppearance" parent="Widget.Design.FloatingActionButton">
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/colorPrimary</item>
+    </style>
+
+    <!-- Note item text appearance-->
+    <style name="NoteItemTextAppearance">
+        <item name="fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="NoteItemTitleTextAppearance" parent="NoteItemTextAppearance">
+        <item name="android:textSize">@dimen/size_note_title</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    
+    <style name="NoteItemShortDescriptionTextAppearance" parent="NoteItemTextAppearance">
+        <item name="android:textSize">@dimen/size_note_short_descr</item>
+        <item name="android:textColor">@color/noteItemShortDescrColor</item>
+    </style>
+
+</resources>
